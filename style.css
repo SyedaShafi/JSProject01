@@ -1,0 +1,68 @@
+.container-1,.container-2,.container-3,.container-4,.container-5{
+    border: 2px solid black;
+    text-align: center;
+    /* padding: 1.5rem; */
+    width: 85%;
+    margin:0px auto;
+}
+
+#main1,#main2,#main3,#main4,#main1-flexbox,#main3-flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 2px solid black;
+    padding: 2rem;
+}
+
+#flexDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:2rem;
+}
+
+#imageResize{
+    /* padding:1rem; */
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 10px 50px  rgba(32, 31, 31, 0.7);
+}
+
+#main3 img:hover{
+    box-shadow: 0px 10px 20px  rgba(46, 14, 230, 0.7);
+}
+
+#main1-flexbox,#main2-flexbox{
+    background-image: url('images/blackjack_background.jpg');
+}
+
+#main1-flexbox div{
+    flex:1;
+    border: 2px solid black;
+    height: 500px;
+    color: white;
+    /* padding: 1rem; */
+
+}
+
+#main2-flexbox
+{
+    /* margin:32px; */
+    border: 2px solid black;
+    padding:2rem;
+}
+
+
+table tr,th,td {
+    padding:1rem;
+    border: 1px solid black;
+}
+
+#imgResizing{
+    height: 230px;
+    width: 150px;
+    padding: 2rem;
+}
+
+
+

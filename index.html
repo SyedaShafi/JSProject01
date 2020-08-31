@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Challenge 1 Age In Days -->
+    <div class="container-1">
+        <h1>Challenge 1: Your Age in Days</h1>
+        <div id="main1">
+
+            <div>
+    
+                <button class="btn btn-primary"  id="ClickBtn">Click Me</button>
+            </div>
+            <div>
+    
+                <button class="btn btn-danger" id = "ResetBtn">Reset</button>
+            </div>
+        </div>
+                <div id="result">
+                    
+                </div>
+    </div>
+
+
+    <!-- Challenge 2: Cat Generator -->
+    <div class="container-2" >
+        <h1>Challenge 2: Cat Generator</h1>
+        <button class="btn btn-success" id="catBtn">Generate Cat </button>
+        <!-- <div id="main2">
+        </div> -->
+        <div id= "flexDiv"> 
+
+        </div>
+    </div>
+
+
+
+    <!-- challenge 3:Rock, Paper,scissors -->
+    <div class="container-3">
+        <h1>Challenge 3:Rock, Paper, Scissors</h1>
+        <div id="main3">
+            <img id = "rock" src="images/rock.png" height="150px" width="150px" onclick="rpsGame(this)">
+            <img id = "paper" src="images/paper.png" height="150px" width="150px" onclick="rpsGame(this)">
+            <img id = "scissors" src="images/scissor.png" height="150px" width="150px" onclick="rpsGame(this)">
+
+        </div> 
+    </div>
+
+
+
+    <!-- challenge 4:Change the color of all buttons -->
+    <div class="container-4">
+        <h1>Change The Color Of All Buttons</h1>
+        <div id="main4">
+            <form action="">
+                <select name="bropdown" id="dropdown" onchange="colorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            
+            <button class="btn-lg btn-danger">Red</button>
+            <button class="btn-lg btn-success">Green</button>
+            <button class="btn-lg btn-primary">Blue</button>
+            <button class="btn-lg btn-warning">Yellow</button>
+        </div>
+    </div>
+
+
+    <div class="container-5">
+        <h1>BlackJack Game</h1>
+        <h3><span id = "gameMessage">Let's Play</span></h3>
+
+        <div id = "main1-flexbox">
+            <div id = "yourBox">
+                <h1>You: <span id="yourScore">0</span></h1>
+            </div>
+            <div id = "dealerBox">
+                <h1>Dealer: <span id="dealerScore">0</span></h1>
+            </div>
+        </div>
+
+
+        <div id="main2-flexbox">
+            <button class="btn-lg btn-primary mr-2" id="hitButton">Hit</button>
+            <button class="btn-lg btn-warning mr-2" id="standButton">Stand</button>
+            <button class="btn-lg btn-danger mr-2" id="dealButton">Deal</button>
+        </div>
+        <div id="main3-flexbox">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
